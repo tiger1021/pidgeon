@@ -1,0 +1,13 @@
+.main-window {
+    margin-top: 15%;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+body {
+    height:100vh;
+    background: rgb(9,9,121);
+    background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%);
+}
