@@ -775,7 +775,7 @@ function start_quiz() {
 function next_question(step) {
 
     if (step==selected.length) {
-        $(".main-window").html('<h1 class="display-4 text-center">Congratulations!<br/>You’ve an Assshole!</h1><hr/><p class="lead text-center">The Asshole type is the hardest one to work with. But don’t worry, it isn’t your fault!</p><div class="text-center"><img src="pidgeon.jpg" class="img-fluid rounded"></div>');
+        $(".main-window").html('<h1 class="display-4 text-center">Congratulations!<br/>You’re an Assshole!</h1><hr/><p class="lead text-center">The Asshole type is the hardest one to work with. But don’t worry, it isn’t your fault!</p><div class="text-center"><img src="pidgeon.jpg" class="img-fluid rounded"></div>');
     }
     else {
         $("#questions").html(`<h3>Question #${step + 1}</h3><h2>${selected[step]["question"]}</h2>`);
